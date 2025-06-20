@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-image: url(Screenshot\ \(8\).png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding: 10px;
+    width: auto;
+    height: 600px;
+    
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop{
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+.logo {
+
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.line{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.h{
+    font-size: 100px;
+    font-weight: 700;
+}
+.h44{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+}
+button{
+    color: aliceblue;
+    background-color: green;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.pe{
+    font-size:smaller;
+    margin-top: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "img1 dis1"
+    "dis2 img2"
+    "img3 dis3";
+    padding: 15px 200px 0px 220px;
+    grid-template-columns: repeat(2,auto);
+    gap: 20px;
+}
+.Box{
+    padding: auto;
+    margin: 50px;
+}
+
+.box-b1{
+    grid-area: img1;
+}
+
+.box-b2{
+    grid-area: dis1;
+}
+
+.box-b3{
+    grid-area: dis2;
+}
+
+.box-b4{
+    grid-area: img2;
+}
+
+.box-b5{
+    grid-area: img3;
+}
+.box-b6{
+    grid-area: dis3;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards-container{
+    width: 800px;
+    display: flex;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 12rem;
+
+}
+
+.cards-container .cards img{
+    margin-bottom: 1rem;
+}
+
+.cards-container .cards .content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards-container .cards .content h1{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cards-container .cards .content span{
+    font-size: smaller;
+}
+
+.anchor{
+    margin: 6rem;
+    text-align: center;
+}
+.anchor a{
+    color: rgb(19, 185, 19);
+}
+.footer{
+    background: url(map.avif);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding: 10px;
+    width: auto;
+    height: 450px;
+}
+.footer .head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer .ss{
+    padding: 1rem;
+    margin: 5px;
+    margin-right: 15rem;
+    text-align: end;
+}
+
+.footer .ss h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.footer .an{
+    text-align: center;
+}
+.footer .an a{
+    color:rgb(19, 185, 19);
+}
